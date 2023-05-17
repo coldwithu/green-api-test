@@ -1,0 +1,114 @@
+.main{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1200px;
+    height: 900px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.left-side{
+    height: 100%;
+    width: 400px;
+}
+.content{
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+}
+.add-chat{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.number{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.user{
+    background-color: #F0F2F5;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.chat{
+    width: 100%;
+    background-color: #8edab8;
+    background-image: url("/src/assets/background.png");
+    position: relative;
+}
+.chat__messages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 10px;
+}
+.chat__info{
+    background-color: #F0F2F5;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.chat__info button{
+    background: transparent;
+    color: #00A884;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.chat__line{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #F0F2F5;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+.chat__line input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+.chat__line button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.chat__line button img{
+    width: 24px;
+    height: 24px;
+}
+.chat__line button:disabled{
+    opacity: 0.1;
+    cursor: auto;
+}
+
+.placeholder{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #00A884;
+    width: 500px;
+    padding: 70px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

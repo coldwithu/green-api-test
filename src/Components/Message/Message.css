@@ -1,0 +1,18 @@
+.message{
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0.5px rgb(0, 0, 0, 0.2);
+    background-color: #D9FDD3;
+    max-width: 400px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.left{
+    align-self: start;
+}
+
+.right{
+    align-self: end;
+}
